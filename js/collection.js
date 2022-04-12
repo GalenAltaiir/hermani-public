@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $.ajax({url: "../data/seasonal.json", success: function(result){
+    $.ajax({url: "/data/seasonal.json", success: function(result){
+        console.log(result.entries)
         let count = result.entries.length
         for (let i = 0; i < count; i++) {
             $("#products").append(`
