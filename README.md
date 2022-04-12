@@ -1,7 +1,7 @@
 ### Quick Links
-> Website <website.com>
+> Website <http://hermani.atwebpages.com/>
 
-> Server (Cockpit)  <www.google.com>
+> Server (Cockpit)  <http://hermani.atwebpages.com/cockpit>
 
 > *Login: admin*
 
@@ -26,6 +26,28 @@ This project is primarily written using the following technologies
 I intend this website to be fully static, with the exception of the backend stack, which will be done through Cockpit CMS. This allows me to host the website on a static web provider, while having the server seperately elsewhere.
 
 Although for this example, the front and back end will be hosted on the same server due to HTTP/HTTPS blocking the api requests. This is due to the front-end having a secure HTTPS encryption, while the backend is only HTTP.
+
+## [SAE] Requirements & Locations
+
+1. Gridsystem is present throughout the whole site, please refer to the css and sass files in the /css directory.
+2. Mockup can be found in the PDF included with this repository
+3. Validation form is present on the register page. Login is disabled. Find it at http://hermani.atwebpages.com/register.html or navigate using the sidebar - menu > login > create new account
+4. Gallery can be accessed on any product
+5. Touched up images can be seen on the website. If you navigate to Men > Shirts, you can see the first result contains the unedited pictures. The edited versions can be seen as product thumbnails for result pages.
+
+Before and After 1: 
+
+![alt text](https://i.imgur.com/WSlofur.png "Unedited Shirt Image")
+
+Before and After 2: 
+
+![alt text](https://i.imgur.com/QdO4kkB.png "Unedited Shirt Image")
+
+6. AJAX loading data from JSON can be found in js/search.js and js/collection.js . [Bug] There is a problem when loading the local seasonal collection json file on the live page. However, it can be seen working when using localhost.
+7. A number of vector images can be found on the site. The shopping bag is stored locally and scales when hovered. Remaining vectors are sourced from font-awesome 4, the heart has some CSS as well.
+8. Browser identification occurs from js/functions.js and is present on most pages. An alert will show up if the user is using Internet Explorer or an Unknown browser.
+
+
 
 ## General Project Overview
 
