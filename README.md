@@ -66,9 +66,10 @@ BrownsFashion.*
 ## Features Overview
 These are the features implemented within the project using JavaScript.
 - Image Gallery
-- Navigation
+- Interactive Navigation
 - Form Validation (Register Page)
 - Reading From JSON Using Fetch & AJAX
+- Fully modular categories and products
 
 *For more information regarding features please check the attached proposal & mockup PDF.
 Some of the features that didn't make it into the final version are **search** **basket overlay***
