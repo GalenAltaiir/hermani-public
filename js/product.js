@@ -9,7 +9,7 @@
                 
                 let prodID = values[0][1]
 
-                const api = "http://hermani.atwebpages.com/api/collections/get/"+category+"Clothing?filter[_id]="+prodID
+                const api = "http://hermani.atwebpages.com/cockpit/api/collections/get/"+category+"Clothing?filter[_id]="+prodID
                 let currentImg = document.getElementById("display-img");
 
     async function getApi(){

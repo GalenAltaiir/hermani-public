@@ -8,7 +8,7 @@
                 let category = categoryRaw.charAt(0).toUpperCase() + categoryRaw.slice(1)
                 let type = values[1][1]
                 console.log(category)
-                const api = "http://hermani.atwebpages.com/api/collections/get/"+category+"Clothing?filter[$and][][category]="+categoryRaw+"&filter[$and][][type]="+type
+                const api = "http://hermani.atwebpages.com/cockpit/api/collections/get/"+category+"Clothing?filter[$and][][category]="+categoryRaw+"&filter[$and][][type]="+type
                 console.log(api)
                 // MULTI FILTER EXAMPLE
 
